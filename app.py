@@ -1,4 +1,4 @@
-#　とりあえずここに置きます。（2020版から少し変えたので動かないかも）
+#　とりあえずここに置きます。（2020版から少し変えた）
 
 import pandas as pd
 import streamlit as st
@@ -107,4 +107,5 @@ if cat_col != "(なし)":
         color=cat_col,
         color_discrete_map=color_map
     )
+
     st.plotly_chart(fig2, use_container_width=True)
